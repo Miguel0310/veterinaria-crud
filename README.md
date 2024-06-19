@@ -15,19 +15,9 @@
 - Gestión de citas
 - Gestión de tratamientos
 
-## Capturas de Pantalla
-
-### Página Principal
-
-![Home](https://via.placeholder.com/800x400.png?text=Home+Screenshot)
-
-### Gestión de Clientes
-
-![Clientes](https://via.placeholder.com/800x400.png?text=Clientes+Screenshot)
-
 ## Requisitos
 
-- PHP 7.4 o superior
+- PHP 8.3.6
 - Composer
 - MySQL
 - Node.js y NPM
