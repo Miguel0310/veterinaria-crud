@@ -4,16 +4,27 @@
 ![PHP](https://img.shields.io/badge/PHP-8.3.6-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5.2-brightgreen)
 
-## Descripción
+## Descrição
 
-**Vet Basic Project** es una aplicación de gestión para una clínica veterinaria, desarrollada en Laravel. Permite gestionar clientes, mascotas, citas y tratamientos de manera eficiente.
+**Vet Basic Project** é uma aplicação de gestão para uma clínica veterinária, desenvolvida em Laravel. Permite gerenciar clientes, animais de estimação, consultas e tratamentos de maneira eficiente.
 
-## Características
+## Funcionalidades
 
-- Gestión de clientes
-- Gestión de mascotas
-- Gestión de citas
-- Gestión de tratamientos
+- Gestão de clientes
+- Gestão de animais de estimação
+- Gestão de consultas
+- Gestão de tratamentos
+- Modo claro/escuro
+
+## Capturas de Tela
+
+### Página Principal
+
+![Home](https://via.placeholder.com/800x400.png?text=Home+Screenshot)
+
+### Gestão de Clientes
+
+![Clientes](https://via.placeholder.com/800x400.png?text=Clientes+Screenshot)
 
 ## Requisitos
 
@@ -22,31 +33,31 @@
 - MySQL
 - Node.js y NPM
 
-## Instalación
+## Instalação
 
-Sigue estos pasos para configurar el proyecto localmente:
+Siga estes passos para configurar o projeto localmente:
 
-1. Clonar el repositorio
+1. Clonar o repositório
 
     ```bash
-    git clone https://github.com/Miguel0310/veterinaria-crud.git
+    git clone https://github.com/YOUR_GITHUB_USERNAME/vet-basic-project.git
     cd vet-basic-project
     ```
 
-2. Instalar las dependencias de Composer
+2. Instalar as dependências do Composer
 
     ```bash
     composer install
     ```
 
-3. Copiar el archivo de entorno y configurar las variables de entorno
+3. Copiar o arquivo de ambiente e configurar as variáveis de ambiente
 
     ```bash
     cp .env.example .env
     php artisan key:generate
     ```
 
-4. Configurar la base de datos en el archivo `.env`
+4. Configurar o banco de dados no arquivo `.env`
 
     ```plaintext
     DB_CONNECTION=mysql
@@ -57,25 +68,25 @@ Sigue estos pasos para configurar el proyecto localmente:
     DB_PASSWORD=your_password
     ```
 
-5. Ejecutar las migraciones
+5. Executar as migrações
 
     ```bash
     php artisan migrate
     ```
 
-6. Instalar las dependencias de Node.js
+6. Instalar as dependências do Node.js
 
     ```bash
     npm install
     ```
 
-7. Compilar los assets
+7. Compilar os assets
 
     ```bash
     npm run dev
     ```
 
-8. Iniciar el servidor de desarrollo
+8. Iniciar o servidor de desenvolvimento
 
     ```bash
     php artisan serve
@@ -83,21 +94,21 @@ Sigue estos pasos para configurar el proyecto localmente:
 
 ## Uso
 
-Accede a la aplicación en `http://127.0.0.1:8000` y comienza a gestionar tu clínica veterinaria.
+Acesse a aplicação em `http://127.0.0.1:8000` e comece a gerenciar sua clínica veterinária.
 
-## Contribución
+## Contribuição
 
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+Se você deseja contribuir para este projeto, por favor siga os seguintes passos:
 
-1. Haz un fork del repositorio
-2. Crea una rama nueva (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit (`git commit -am 'Agregar nueva funcionalidad'`)
-4. Sube tu rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
+1. Faça um fork do repositório
+2. Crie uma nova branch (`git checkout -b feature/nova-funcionalidade`)
+3. Faça suas alterações e commit (`git commit -am 'Adicionar nova funcionalidade'`)
+4. Envie sua branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
 
-## Licencia
+## Licença
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ## Contacto
 
